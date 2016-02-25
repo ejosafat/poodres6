@@ -1,0 +1,22 @@
+{
+  "name": "poodres6",
+  "version": "1.0.0",
+  "description": "Examples from Sandi Metz's book translated to ES6",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ejosafat/poodres6.git"
+  },
+  "author": "Eddy Josafat",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ejosafat/poodres6/issues"
+  },
+  "homepage": "https://github.com/ejosafat/poodres6#readme",
+  "devDependencies": {
+    "babel-core": "^6.5.2"
+  }
+}
