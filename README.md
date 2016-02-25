@@ -1,1 +1,1 @@
-# poodres6
+# Practical Object Oriented Design With Ruby (by Sandy Metz), in ECMASCript6Sample code from this excellent book translated to ES6.
