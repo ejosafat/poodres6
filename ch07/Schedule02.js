@@ -21,8 +21,9 @@ const schedule = {
 const scheduleMixin = Define(schedule);
 
 function substractDays(date, days) {
-    date.setDate(date.getDate() - days);
-    return date;
+    let newDate = new Date(date.getTime());
+    newDate.setDate(date.getDate() - days);
+    return newDate;
 }
 
 // This function was created by Reg “raganwald” Braithwaite
