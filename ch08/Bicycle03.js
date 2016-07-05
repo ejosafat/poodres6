@@ -14,6 +14,15 @@ class Bicycle {
 class Parts {
     constructor(parts) {
         this.parts = parts;
+
+        return new Proxy(this, {
+            get(target, name) {
+                if (name === 'length') {
+                    return target.parts.length;
+                }
+                return target[name];
+            }
+        });
     }
 
     spares() {
