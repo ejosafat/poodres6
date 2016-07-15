@@ -4,7 +4,7 @@
   "description": "Examples from Sandi Metz's book translated to ES6",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha --compilers js:babel-core/register ch09/."
   },
   "repository": {
     "type": "git",
@@ -24,5 +24,10 @@
     "presets": [
       "es2015"
     ]
+  },
+  "dependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.5.3",
+    "sinon": "^1.17.4"
   }
 }
