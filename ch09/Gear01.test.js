@@ -1,6 +1,6 @@
 const assert = require('chai').assert;
 import Wheel from './sources/Wheel.js';
-import Gear from './sources/Gear.js';
+import Gear from './sources/Gear01.js';
 
 describe('Gear', () => {
     it('calculates gear inches', () => {

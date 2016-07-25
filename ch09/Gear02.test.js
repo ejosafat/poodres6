@@ -1,5 +1,5 @@
 const assert = require('chai').assert;
-import Gear from './sources/Gear.js';
+import Gear from './sources/Gear01.js';
 
 class DiameterDouble {
     diameter() {
