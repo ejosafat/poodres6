@@ -1,5 +1,5 @@
 const assert = require('chai').assert;
-import Wheel from './sources/Wheel.js';
+import Wheel from './sources/Wheel01.js';
 import Gear from './sources/Gear01.js';
 
 describe('Gear', () => {
